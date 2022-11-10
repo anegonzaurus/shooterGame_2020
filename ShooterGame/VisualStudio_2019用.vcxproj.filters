@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Environ">
+      <UniqueIdentifier>{132e514e-f4f0-407b-9903-c10ceee389f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Main">
+      <UniqueIdentifier>{8a5744bb-64d1-403f-af6d-10024c6895a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{2aafba12-347b-4d4c-af9a-3399b8ca6067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Player">
+      <UniqueIdentifier>{bb60dccd-0639-4bad-8eec-736c1bac0f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Enemy">
+      <UniqueIdentifier>{fa34e870-b8b3-469a-8242-d1ec12efc22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Shot">
+      <UniqueIdentifier>{a56b2adf-8f0c-40c6-8a37-3bd929850165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Shot\Enemy">
+      <UniqueIdentifier>{4da33acf-965c-40fd-b181-44fe3ee59148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Shot\Player">
+      <UniqueIdentifier>{0794096e-4a7b-4141-b870-8b06bcdc45d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Environ\Map">
+      <UniqueIdentifier>{99d1d48f-800f-41a1-a64b-34f4b2c79c2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DxLibFiles\DxLib.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>ソース ファイル\Environ</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>ソース ファイル\Environ\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>ソース ファイル\Environ\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>ソース ファイル\Environ\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>ソース ファイル\Environ</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot.h">
+      <Filter>ソース ファイル\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル\Object\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\test1.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\_loose.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\_sea.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\_shimakaze.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\_shimakaze.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\_start.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\_win.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\bg.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\bomb.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\bomb2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\bullet.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\bullet2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\clear.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\enemy.gif">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\enemy.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\enemy2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\fire.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\gi01a201503061000.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\gyorai.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\loose.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\maxresdefault.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\player.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\player2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\player3.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\sea.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\sea2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\sea3.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\shimakaze.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\shot.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\simakaze.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\sky.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\start.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\teki.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\tekiyarare.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\thunder.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\thunder2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\ug.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\win.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\yarare.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="img\yarare2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\title.psd">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\_battle.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\_looses.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\_title.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\_wins.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\battle.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\explosion.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\looses.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\thunder.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\thunder2.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\title.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\wins.mp3">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+    <Media Include="sound\yarares.wav">
+      <Filter>リソース ファイル</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common.cpp">
+      <Filter>ソース ファイル\Environ</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>ソース ファイル\Environ\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>ソース ファイル\Environ\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>ソース ファイル\Environ\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>ソース ファイル\Environ</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDownWardShot.cpp">
+      <Filter>ソース ファイル\Shot\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyLeftWardShot.cpp">
+      <Filter>ソース ファイル\Shot\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyWaveShot.cpp">
+      <Filter>ソース ファイル\Shot\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShot.cpp">
+      <Filter>ソース ファイル\Shot\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDownWard.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyLeftWard.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyWave.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LastBoss.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="LastBossShot.cpp">
+      <Filter>ソース ファイル\Shot\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
